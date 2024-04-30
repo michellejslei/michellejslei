@@ -1,5 +1,21 @@
 @import "../../vars.css";
 
+@font-face {
+    font-family: 'TanMeringue';
+    src: url('../../assets/fonts/tan_meringue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HagridRegular';
+    src: url('../../assets/fonts/hagrid_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .navbar {
     position: relative;
     display: flex;
@@ -11,6 +27,7 @@
 }
 
 .title {
+    font-family: 'TanMeringue', sans-serif;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
@@ -28,8 +45,11 @@
 }
 
 .menuItems a {
-    font-size: 25px;
-    color: var(--color-text);
+    font-family: 'HagridRegular', sans-serif;
+    font-size: 22px;
+    /* color: var(--color-text); */
+    font-weight: 700;
+    color: #4f798b;
     text-decoration: none;
 }
 
