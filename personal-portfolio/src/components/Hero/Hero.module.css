@@ -60,7 +60,7 @@
 }
 
 .description span::before {
-    content: "software developer";
+    content: "software developer.";
     color: white;
     animation: words 20s infinite;
 }
@@ -70,7 +70,7 @@
     background-color: #5d7298;
     position: absolute;
     width: calc(100% + 5px);
-    height: 110%;
+    height: 115%;
     border-left: 3px solid #5d7298;
     right: -8px;
     top: 0.5px;
@@ -85,25 +85,25 @@
 
 @keyframes words {
     0%,
-    25% {
-        content: "neuroscientist";
+    20% {
+        content: "neuroscientist.";
     }
-    26%,
-    50% {
-        content: "leader";
+    21%,
+    40% {
+        content: "kombucha enthusiast.";
     }
-    51%,
-    75% {
-        content: "matcha enthusiast";
+    41%,
+    60% {
+        content: "software developer.";
     }
-    76%,
+    61%,
+    80% {
+        content: "neuroscientist.";
+    }
+    81%,
     100% {
-        content: "wannabe pickleballer";
+        content: "kombucha enthusiast.";
     }
-    /* 81%,
-    100% {
-        content: "wannabe skiier";
-    } */
 }
 
 @keyframes typing {
