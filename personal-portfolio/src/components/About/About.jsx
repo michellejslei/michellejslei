@@ -7,16 +7,21 @@ const About = () => {
     <h2 className={styles.title}>About Me</h2>
     <div className={styles.content}>
         <img 
-        src={getImageUrl("hero/headshot.png")}
+        src={getImageUrl("hero/gradphoto.png")}
         alt="michelle sitting"
         className={styles.aboutImage}
         />
-        <h2 className={styles.aboutItem}>
-            Hi there!
-        </h2>
-        <p className={styles.aboutItem}>
-            I'm Michelle, and welcome to my website! I'm a third year student @ UBC studying Computer Science, and a BSc. Neuroscience & Physiology graduate from UBC.
-        </p>
+        <div className={styles.textGroup}> 
+          <p className={styles.aboutItem}>
+              Hi there!
+              <br/><br/>
+              I'm Michelle, and welcome to my website! I'm a third year student @ UBC studying Computer Science, and a BSc. Neuroscience & Physiology graduate from UBC.
+              <br/><br/>
+              I've worked in both healthcare and finance before discovering my love for tech!
+              <br/><br/>
+              I love meeting new people, so please feel free to reach out! Let's chat! 
+          </p>
+        </div>
     </div>
     <div className={styles.topBlur} />
     <div className={styles.bottomBlur} />
