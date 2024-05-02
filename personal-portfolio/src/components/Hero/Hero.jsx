@@ -6,9 +6,9 @@ const Hero = () => {
   return <section className={styles.container}>
     <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Michelle! </h1>
-        <p className={styles.description}>
-            I'm a computer science student at the University of British Columbia
-        </p>
+        <h3 className={styles.description}>
+            I'm a <span></span>
+        </h3>
         <a href="mailto:michellejslei@gmail.com" className={styles.contactBtn}>Contact Me</a>
         </div>
         <img src={getImageUrl("hero/headshot.png")} alt="picture of me" className={styles.heroImg}/>

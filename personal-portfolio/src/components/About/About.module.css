@@ -1,5 +1,21 @@
 @import "../../vars.css";
 
+@font-face {
+    font-family: 'HagridRegular';
+    src: url('../../assets/fonts/hagrid_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TanMeringue';
+    src: url('../../assets/fonts/tan_meringue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .container {
     position: relative;
     background-color: rgba(12, 12, 12, 0.6);
@@ -12,9 +28,13 @@
 }
 
 .title {
-    color: var(--color-text);
+    /* color: var(--color-text); */
+    color: white;
     font-size: 35px;
     font-weight: 700;
+    font-family: 'TanMeringue', sans-serif;
+    text-align: center;
+    z-index: 1;
     letter-spacing: 1.75px;
     text-transform: uppercase;
 }
@@ -23,17 +43,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 1;
 }
 
 .aboutImage {
     width: 35%;
+    z-index: 1;
 }
 
 .aboutItems {
     color: var(--color-text);
     display: flex;
     flex-direction: column;
+    font-family: 'HagridRegular', sans-serif;
     gap: 50px;
+    z-index: 1;
 }
 
 .aboutItem {
@@ -43,10 +67,15 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    /* background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%); */
+    font-family: 'HagridRegular', sans-serif;
+    color: white;
+    line-height: 1.6;
+    font-size: 20px;
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
+    z-index: 1;
 }
 
 .aboutItem:hover {
@@ -60,6 +89,34 @@
 
 .aboutItem p {
     font-size: 25px;
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 80vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -20vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 250px;
+    min-height: 350px;
+    top: 246px;
+    right: -5vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
 }
 
 @media screen and (max-width: 830px) {
