@@ -33,7 +33,7 @@ const experiences = [
     location: 'Vancouver, BC, Jan 2024 - Present',
     link: 'https://sites.google.com/finlitisland.com/education',
     description: [
-      'Co-founded a youth-led organization that aims to gamify financial literacy content for Canadian high-school students, winning the 3rd place microgrant at the Youthful Cities – Urban Work Summit 2024',
+      'Co-founded a youth-led organization that aims to gamify financial literacy content for Canadian high-school students, winning the 🥉 place microgrant at the Youthful Cities – Urban Work Summit 2024',
       'Spearheading the development of minigames to teach lending, credit, and budgeting concepts',
     ],
     logo: getImageUrl("logos/finlit.png"),
@@ -104,7 +104,7 @@ const Experience = ({ id }) => {
   }, []);
 
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id="experiences">
     <h2 className={styles.title}>experiences</h2>
     <Box
       ref={targetRef}
@@ -158,9 +158,9 @@ const Experience = ({ id }) => {
                 <VStack alignItems="flex-start">
                   <Text
                     fontWeight="600"
-                    fontSize="20px"
+                    fontSize="22px"
                     color="#5d7298"
-                    style={{ fontFamily: 'HagridRegular' }}
+                    style={{ fontFamily: 'Raleway' }}
                     className={styles.location}
                   >
                     📍 {location}
@@ -173,8 +173,8 @@ const Experience = ({ id }) => {
                     {description.map((desc, id) => {
                       return (
                         <Text
-                          fontSize="16px"
-                          style={{ fontFamily: 'HagridRegular' }}
+                          fontSize="20px"
+                          style={{ fontFamily: 'Raleway' }}
                           color="#5d7298"
                           key={id}
                         >

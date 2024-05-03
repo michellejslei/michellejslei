@@ -9,6 +9,14 @@
 }
 
 @font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/fonts/raleway.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'TanMeringue';
     src: url('../../assets/fonts/tan_meringue.ttf') format('truetype');
     font-weight: normal;
@@ -59,15 +67,6 @@
     gap: 10px; 
 }
 
-.aboutItems {
-    color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    font-family: 'HagridRegular', sans-serif;
-    gap: 50px;
-    z-index: 1;
-}
-
 .aboutItem {
     display: flex;
     flex-direction: row;
@@ -75,7 +74,7 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    font-family: 'HagridRegular', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     line-height: 1.6;
     font-size: 20px;
