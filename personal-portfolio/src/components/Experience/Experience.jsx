@@ -82,9 +82,9 @@ const experiences = [
     link: 'https://hotelstudy.med.ubc.ca/about/',
     description: [
       'Managed database of 500+ subjects spanning 10+ years, ensuring data integrity and accessibility, and worked directly with marginalized individuals in the Downtown Eastside, facilitating clinical and psychiatric support',
-      'Utilized R to perform logistic regression analysis, extracting key insights from complex datasets for first-author publication (DOI: 10.1080/10826084.2021.1958865)',
+      'Utilized R to perform logistic regression analysis, extracting key insights from complex datasets for first-author publication',
     ],
-    logo: getImageUrl("logos/bccrc.png"),
+    logo: getImageUrl("logos/ubc.png"),
   },
   {
     title: 'Research Assistant @ BC Cancer Research Centre',
@@ -93,7 +93,7 @@ const experiences = [
     description: [
       'Conducted complex lab procedures – microdissection and DNA/RNA extraction for head and neck cancer research projects, demonstrating meticulous attention to detail and adherence to strict protocols',
     ],
-    logo: getImageUrl("logos/ubc.png"),
+    logo: getImageUrl("logos/bccrc.png"),
   },
 ];
 

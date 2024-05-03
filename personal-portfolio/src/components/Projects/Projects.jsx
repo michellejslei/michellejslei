@@ -87,6 +87,15 @@ import {
       ],
       logo: getImageUrl("logos/chat.png"),
     },
+    {
+      title: 'Characterization of Bodily Pain and Use of Prescription and Non-Prescription Opioids in Tenants of Precarious Housing',
+      location: 'Sep 2019 - Aug 2021',
+      link: '',
+      description: [
+        'First author publication in Substance Use & Misuse Journal. DOI: 10.1080/10826084.2021.1958865',
+      ],
+      logo: getImageUrl("logos/painkiller.png"),
+    },
   ];
   
   const Projects = ({ id }) => {
