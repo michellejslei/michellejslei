@@ -168,12 +168,12 @@
 
 .topBlur {
     position: absolute;
-    width: 70vw;
+    width: 80vw;
     height: 50vw;
     min-width: 350px;
     min-height: 350px;
-    top: -128px;
-    left: -10vw;
+    top: -120px;
+    left: -20vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
