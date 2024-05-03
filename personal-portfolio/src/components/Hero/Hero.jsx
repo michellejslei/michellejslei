@@ -9,7 +9,6 @@ const Hero = () => {
         <h3 className={styles.description}>
             I'm a <span></span>
         </h3>
-        {/* <a href="mailto:michellejslei@gmail.com" className={styles.contactBtn}>Contact Me</a> */}
         <div className={styles.socialIcons}>
           <a href="https://www.linkedin.com/in/michellejslei/"><i class='bx bxl-linkedin-square' ></i></a>
           <a href="https://github.com/michellejslei"><i class='bx bxl-github' ></i></a>

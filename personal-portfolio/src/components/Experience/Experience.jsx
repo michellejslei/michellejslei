@@ -42,6 +42,17 @@ const experiences = [
     ],
   },
   {
+    title: 'Board Director @ George Derby Care Society',
+    location: 'Burnaby, BC, Jan 2024 - present',
+    link: 'http://georgederby.ca/georgederbycentre.html',
+    description: [
+      'Serving on Quality and Risk Management and Governance and Strategy committees, contributing to organizational oversight',
+    ],
+    logo: getImageUrl("logos/george.png"),
+    photos: [],
+    captions: [],
+  },
+  {
     title: 'Workforce Data Analyst @ Vancouver City Savings Credit Union',
     location: 'Vancouver, BC, Feb 2022 - Aug 2023',
     link: 'https://www.vancity.com/',
@@ -50,6 +61,18 @@ const experiences = [
       'Identified and resolved internal ad-hoc technological issues, optimizing operational efficiency',
     ],
     logo: getImageUrl("logos/vancity.png"),
+    photos: [],
+    captions: [],
+  },
+  {
+    title: 'Young Director @ Fora',
+    location: 'Canada, Apr 2023 - present',
+    link: 'https://www.foranetwork.org/riseonboards',
+    description: [
+      'Selected as one of 34 nationwide to champion gender equity and shape decision-making on governance boards',
+      'Acquired expertise in governance, financial management, fundraising, professional communications, and leadership',
+    ],
+    logo: getImageUrl("logos/fora.png"),
     photos: [],
     captions: [],
   },

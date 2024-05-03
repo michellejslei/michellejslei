@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+@font-face {
+    font-family: 'HagridRegular';
+    src: url('../../assets/fonts/hagrid_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/fonts/raleway.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TanMeringue';
+    src: url('../../assets/fonts/tan_meringue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: transparent;
+    color: rgba(25, 55, 109, 0.7);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    margin: auto;
+    font-size: 16px;
+    font-family: 'TanMeringue', sans-serif;
+}

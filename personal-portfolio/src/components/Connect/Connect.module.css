@@ -1,0 +1,77 @@
+@import "../../vars.css";
+
+@font-face {
+    font-family: 'HagridRegular';
+    src: url('../../assets/fonts/hagrid_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../assets/fonts/raleway.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TanMeringue';
+    src: url('../../assets/fonts/tan_meringue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    position: relative;
+    border-radius: 15px;
+    padding: 60px;
+    margin-top: 110px;
+    z-index: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 280px;
+}
+
+.title {
+    color: #506285;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'TanMeringue', sans-serif;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 1.75px;
+    text-transform: lowercase;
+    margin-bottom: 40px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-around; /* Ensures icons are evenly spaced */
+    align-items: center;
+    background: transparent;
+}
+
+.socialIcons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px; 
+    height: 65px; 
+    border: 1.5px solid #506285; 
+    border-radius: 50%; 
+    color: #506285; 
+    font-size: 35px;
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for hover effects */
+    margin-right: 20px;
+}
+
+.socialIcons a:hover {
+    color: #5d7298;
+    transform: scale(1.1)translateY(-5px);
+    box-shadow: 0 0 25px white;
+    background-color: white;
+}

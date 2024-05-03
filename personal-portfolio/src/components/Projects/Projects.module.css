@@ -26,7 +26,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.2);
+    background-color: rgba(12, 12, 12, 0.25);
     border-radius: 15px;
     padding: 60px;
     margin-top: 110px;
