@@ -8,7 +8,6 @@ import {
   Flex,
   Image,
   Text,
-  useColorModeValue,
   VStack,
 } from '@chakra-ui/react';
 import React from 'react';
@@ -77,10 +76,6 @@ const experiences = [
 
 const Experience = ({ id }) => {
   const targetRef = useRef(null);
-  const secondaryTextColour = useColorModeValue(
-    'light.secondaryTextColour',
-    'dark.secondaryTextColour'
-  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
