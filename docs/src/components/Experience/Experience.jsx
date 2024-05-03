@@ -28,7 +28,7 @@ const experiences = [
   //   captions: [],
   // },
   {
-    title: 'Software Developer Intern @ FinLit Island Education Association',
+    title: 'Software Developer @ FinLit Island Education Association',
     location: 'Vancouver, BC, Jan 2024 - Present',
     link: 'https://sites.google.com/finlitisland.com/education',
     description: [
