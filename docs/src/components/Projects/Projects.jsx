@@ -154,7 +154,7 @@ import {
                       display="flex"
                       flexDir="row"
                       fontWeight="bold"
-                      fontSize="24px"
+                      fontSize="22px"
                       px="10px"
                       className={styles.jobTitle}
                     >
@@ -177,7 +177,7 @@ import {
                   <VStack alignItems="flex-start">
                     <Text
                       fontWeight="600"
-                      fontSize="22px"
+                      fontSize="20px"
                       color="white"
                       style={{ fontFamily: 'Raleway, sans-serif' }}
                       className={styles.location}
@@ -192,8 +192,8 @@ import {
                       {description.map((desc, id) => {
                         return (
                           <Text
-                            fontSize="20px"
-                            style={{ fontFamily: 'Raleway' }}
+                            fontSize="18px"
+                            style={{ fontFamily: 'Raleway, sans-serif' }}
                             color="white"
                             key={id}
                             className={styles.description}
