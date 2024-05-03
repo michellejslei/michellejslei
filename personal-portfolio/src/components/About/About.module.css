@@ -18,7 +18,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(12, 12, 12, 0.2);
     border-radius: 15px;
     padding: 60px;
     margin-top: 110px;
@@ -36,7 +36,7 @@
     text-align: center;
     z-index: 1;
     letter-spacing: 1.75px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .content {
