@@ -163,7 +163,7 @@ const Experience = ({ id }) => {
                       src={logo}
                       alt="company-logo"
                     />
-                    <Text style={{ fontFamily: 'HagridRegular', color: '#5d7298' }}>{title}</Text>
+                    <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: '#5d7298' }}>{title}</Text>
                   </Box>
                   <AccordionIcon mr="20px" />
                 </AccordionButton>
@@ -192,7 +192,7 @@ const Experience = ({ id }) => {
                       return (
                         <Text
                           fontSize="20px"
-                          style={{ fontFamily: 'Raleway' }}
+                          style={{ fontFamily: 'Raleway, sans-serif' }}
                           color="#5d7298"
                           key={id}
                         >

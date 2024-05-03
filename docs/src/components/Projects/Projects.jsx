@@ -164,7 +164,7 @@ import {
                         src={logo}
                         alt="company-logo"
                       />
-                      <Text style={{ fontFamily: 'HagridRegular', color: 'white' }}>{title}</Text>
+                      <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: 'white' }}>{title}</Text>
                     </Box>
                     <AccordionIcon mr="20px" />
                   </AccordionButton>
@@ -179,7 +179,7 @@ import {
                       fontWeight="600"
                       fontSize="22px"
                       color="white"
-                      style={{ fontFamily: 'Raleway' }}
+                      style={{ fontFamily: 'Raleway, sans-serif' }}
                       className={styles.location}
                     >
                       {location}
