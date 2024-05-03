@@ -37,7 +37,7 @@
 
 .title {
     color: white;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     font-family: 'TanMeringue', sans-serif;
     text-align: center;
@@ -76,7 +76,7 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 16px;
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;

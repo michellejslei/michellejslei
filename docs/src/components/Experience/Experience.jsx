@@ -153,7 +153,7 @@ const Experience = ({ id }) => {
                     display="flex"
                     flexDir="row"
                     fontWeight="bold"
-                    fontSize="22px"
+                    fontSize="16.5px"
                     px="10px"
                     className={styles.jobTitle}
                   >
@@ -176,7 +176,7 @@ const Experience = ({ id }) => {
                 <VStack alignItems="flex-start">
                   <Text
                     fontWeight="600"
-                    fontSize="20px"
+                    fontSize="17px"
                     color="#5d7298"
                     style={{ fontFamily: 'Raleway, sans-serif' }}
                     className={styles.location}
@@ -191,7 +191,7 @@ const Experience = ({ id }) => {
                     {description.map((desc, id) => {
                       return (
                         <Text
-                          fontSize="18px"
+                          fontSize="15px"
                           style={{ fontFamily: 'Raleway, sans-serif' }}
                           color="#5d7298"
                           key={id}

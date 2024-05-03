@@ -37,14 +37,14 @@
 
 .title {
     color: #506285;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     font-family: 'TanMeringue', sans-serif;
     text-align: center;
     z-index: 1;
     letter-spacing: 1.75px;
     text-transform: lowercase;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .socialIcons {
@@ -58,12 +58,12 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 65px; 
-    height: 65px; 
+    width: 55px; 
+    height: 55px; 
     border: 1.5px solid #506285; 
     border-radius: 50%; 
     color: #506285; 
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: none; 
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for hover effects */
     margin-right: 20px;
