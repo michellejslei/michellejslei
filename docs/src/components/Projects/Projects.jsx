@@ -82,7 +82,6 @@ import {
       link: '',
       description: [
         'Collaborated within a team of 4 to develop an NLP chatbot to provide users with personalized flight recommendations, using Dialogflow CX to facilitate natural and engaging user interactions',
-        'Utilized UML for project design and applied OOP for efficient logic development',
         'Best use of Google Cloud Winner',
       ],
       logo: getImageUrl("logos/chat.png"),
