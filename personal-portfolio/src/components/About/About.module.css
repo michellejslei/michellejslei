@@ -36,9 +36,8 @@
 }
 
 .title {
-    /* color: var(--color-text); */
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     font-family: 'TanMeringue', sans-serif;
     text-align: center;
