@@ -170,7 +170,7 @@ const Experience = ({ id }) => {
               </Text>
 
               <AccordionPanel
-                pb={4}
+                pb={5}
                 pl="35px"
               >
                 <VStack alignItems="flex-start">

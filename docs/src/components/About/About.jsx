@@ -17,7 +17,7 @@ const About = () => {
               <br/><br/>
               I'm Michelle, and welcome to my website! I'm a third year student @ UBC studying Computer Science, and a BSc. Neuroscience & Physiology graduate from UBC.
               <br/><br/>
-              I've worked in both healthcare and finance before discovering my love for tech!
+              I worked in both healthcare and finance before discovering my love for tech. In my free time, I enjoy working on new projects and exploring the outdoors!
               <br/><br/>
               I love meeting new people, so please feel free to reach out! Let's chat! 
           </p>
