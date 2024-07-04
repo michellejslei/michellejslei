@@ -123,7 +123,7 @@ import {
   
     return (
       <section className={styles.container} id="projects">
-      <h2 className={styles.title}>projects</h2>
+      <h2 className={styles.title}>## projects</h2>
       <Box
         ref={targetRef}
         id={id}
@@ -153,7 +153,9 @@ import {
                       display="flex"
                       flexDir="row"
                       fontWeight="bold"
-                      fontSize="16.5px"
+                      // fontSize="16.5px"
+                      letterSpacing={'1.05px'}
+                      fontSize="18px"
                       px="10px"
                       className={styles.jobTitle}
                     >
@@ -163,7 +165,8 @@ import {
                         src={logo}
                         alt="company-logo"
                       />
-                      <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: 'white' }}>{title}</Text>
+                      {/* <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: 'black' }}>{title}</Text> */}
+                      <Text style={{ color: 'black' }}>{title}</Text>
                     </Box>
                     <AccordionIcon mr="20px" />
                   </AccordionButton>
@@ -177,8 +180,9 @@ import {
                     <Text
                       fontWeight="600"
                       fontSize="17px"
-                      color="white"
-                      style={{ fontFamily: 'Raleway, sans-serif' }}
+                      color="black"
+                      letterSpacing={'1.05px'}
+                      // style={{ fontFamily: 'Raleway, sans-serif' }}
                       className={styles.location}
                     >
                       {location}
@@ -192,8 +196,9 @@ import {
                         return (
                           <Text
                             fontSize="15px"
-                            style={{ fontFamily: 'Raleway, sans-serif' }}
-                            color="white"
+                            // style={{ fontFamily: 'Raleway, sans-serif' }}
+                            color="black"
+                            letterSpacing={'1.35px'}
                             key={id}
                             className={styles.description}
                           >

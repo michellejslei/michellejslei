@@ -28,9 +28,22 @@ const experiences = [
   //   captions: [],
   // },
   {
-    title: 'Software Developer @ FinLit Island Education Association',
+    title: 'Software Engineer Intern @ Shopify',
+    location: 'Toronto, ON, Sep 2024 - Dec 2024',
+    link: 'https://www.shopify.com/ca/store-login',
+    description: [
+      'Incoming Backend Software Engineer Intern',
+    ],
+    logo: getImageUrl("logos/shopify.png"),
+    photos: [],
+    captions: [
+      '',
+    ],
+  },
+  {
+    title: 'Software Engineer @ FinLit Island Education Association',
     location: 'Vancouver, BC, Jan 2024 - Present',
-    link: 'https://sites.google.com/finlitisland.com/education',
+    link: 'https://finlit-island.vercel.app/',
     description: [
       'Co-founded a youth-led organization that aims to gamify financial literacy content for Canadian high-school students, winning the 🥉 place microgrant at the Youthful Cities – Urban Work Summit 2024',
       'Spearheading the development of minigames to teach lending, credit, and budgeting concepts',
@@ -123,7 +136,7 @@ const Experience = ({ id }) => {
 
   return (
     <section className={styles.container} id="experiences">
-    <h2 className={styles.title}>experiences</h2>
+    <h2 className={styles.title}>## experiences</h2>
     <Box
       ref={targetRef}
       id={id}
@@ -153,7 +166,8 @@ const Experience = ({ id }) => {
                     display="flex"
                     flexDir="row"
                     fontWeight="bold"
-                    fontSize="16.5px"
+                    fontSize="18px"
+                    letterSpacing={'1.05px'}
                     px="10px"
                     className={styles.jobTitle}
                   >
@@ -163,7 +177,9 @@ const Experience = ({ id }) => {
                       src={logo}
                       alt="company-logo"
                     />
-                    <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: '#5d7298' }}>{title}</Text>
+                    {/* <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: '#5d7298' }}>{title}</Text> */}
+                    {/* <Text style={{ fontFamily: 'HagridRegular, sans-serif', color: 'black' }}>{title}</Text> */}
+                    <Text style={{ color: 'black' }}>{title}</Text>
                   </Box>
                   <AccordionIcon mr="20px" />
                 </AccordionButton>
@@ -177,8 +193,10 @@ const Experience = ({ id }) => {
                   <Text
                     fontWeight="600"
                     fontSize="17px"
-                    color="#5d7298"
-                    style={{ fontFamily: 'Raleway, sans-serif' }}
+                    // color="#5d7298"
+                    color="black"
+                    // style={{ fontFamily: 'Raleway, sans-serif' }}
+                    letterSpacing={'1.05px'}
                     className={styles.location}
                   >
                     📍 {location}
@@ -192,8 +210,10 @@ const Experience = ({ id }) => {
                       return (
                         <Text
                           fontSize="15px"
-                          style={{ fontFamily: 'Raleway, sans-serif' }}
-                          color="#5d7298"
+                          // style={{ fontFamily: 'Raleway, sans-serif' }}
+                          // color="#5d7298"
+                          letterSpacing={'1.35px'}
+                          color="black"
                           key={id}
                         >
                           • {desc}

@@ -36,10 +36,11 @@
 }
 
 .title {
-    color: #506285;
+    /* color: #506285; */
+    color: black;
     font-size: 36px;
     font-weight: 700;
-    font-family: 'TanMeringue', sans-serif;
+    /* font-family: 'TanMeringue', sans-serif; */
     text-align: center;
     z-index: 1;
     letter-spacing: 1.75px;
@@ -60,9 +61,11 @@
     align-items: center;
     width: 55px; 
     height: 55px; 
-    border: 1.5px solid #506285; 
+    /* border: 1.5px solid #506285;  */
+    border: 1.5px solid black; 
     border-radius: 50%; 
-    color: #506285; 
+    /* color: #506285;  */
+    color: black;
     font-size: 30px;
     text-decoration: none; 
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for hover effects */
@@ -70,7 +73,8 @@
 }
 
 .socialIcons a:hover {
-    color: #5d7298;
+    /* color: #5d7298; */
+    color: black;
     transform: scale(1.1)translateY(-5px);
     box-shadow: 0 0 25px white;
     background-color: white;

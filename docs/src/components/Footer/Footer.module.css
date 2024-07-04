@@ -27,7 +27,8 @@
 .footer {
     padding: 20px 0;
     background-color: transparent;
-    color: rgba(25, 55, 109, 0.7);
+    /* color: rgba(25, 55, 109, 0.7); */
+    color: black;
     text-align: center;
     position: relative;
     bottom: 0;
@@ -36,6 +37,7 @@
 
 .content {
     margin: auto;
-    font-size: 16px;
-    font-family: 'TanMeringue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+    /* font-family: 'TanMeringue', sans-serif; */
 }

@@ -26,8 +26,12 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.25);
-    border-radius: 15px;
+    /* background-color: rgba(12, 12, 12, 0.25); */
+    /* background-color: rgba(227, 227, 227, 0.887); */
+    background-color: transparent;
+    border: 2px solid black;
+    /* border-radius: 15px; */
+    border-radius: 0px;
     padding: 60px;
     margin-top: 110px;
     z-index: 1;
@@ -36,11 +40,13 @@
 }
 
 .title {
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 36px;
     font-weight: 700;
-    font-family: 'TanMeringue', sans-serif;
-    text-align: center;
+    /* font-family: 'TanMeringue', sans-serif; */
+    text-align: left;
+    margin-left: 15px;
     z-index: 1;
     letter-spacing: 1.75px;
     text-transform: lowercase;
@@ -50,7 +56,8 @@
 .jobTitle {
     padding: 5px 10px; 
     font-family: 'HagridRegular', sans-serif;
-    color: #333;
+    /* color: #333; */
+    color: black;
     font-size: 24px;
     transition: background-color 0.3s ease;
     border-radius: 8px;
@@ -59,7 +66,7 @@
 }
 
 .jobTitle:hover {
-    background-color: rgba(25, 55, 109, 0.1); /* Darker background on hover */
+    background-color: rgba(54, 54, 54, 0.1); /* Darker background on hover */
 }
 
 .location {
@@ -73,7 +80,7 @@
     z-index: 1;
 }
 
-.topBlur {
+/* .topBlur {
     position: absolute;
     width: 70vw;
     height: 50vw;
@@ -99,4 +106,4 @@
     background: rgba(25, 55, 109, 0.6);
     filter: blur(100px);
     z-index: 0;
-}
+} */
