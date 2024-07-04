@@ -35,7 +35,7 @@ const projects = [
     link: '',
     description: [
       'Created a web ML study buddy to process TensorFlow pose detection data via webcam and send audio alerts when a user is engaged in a ‘distracted’ pose during a study session',
-      'Implemented virtual study room servers using Socket.IO that send real-time alerts when distractions occur',
+      'Implemented a real-time communication server using Socket.IO with WebSocket management that allows users to join virtual study rooms, manage connections securely, and receive notifications',
     ],
     tags: ['React.js', 'JavaScript', 'Express', 'Node.js', 'TensorFlow', 'Socket.IO'],
     logo: getImageUrl("logos/studyguard.png"),
