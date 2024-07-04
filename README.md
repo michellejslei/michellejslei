@@ -1,3 +1,3 @@
-# michellejslei
+# Welcome to my profile!
 
-personal portfolio website. Click [here](https://michellejslei.github.io/) to go to the website
+Read more about me @ michellejslei@vercel.app [here]([https://michellejslei.vercel.app/])!
