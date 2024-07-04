@@ -28,11 +28,11 @@
     position: relative;
     border-radius: 15px;
     padding: 60px;
-    margin-top: 110px;
+    margin-top: 80px;
     z-index: 1;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .title {
