@@ -209,7 +209,7 @@ const Projects = ({ id }) => {
                               <Text
                                 fontSize="15px"
                                 color="black"
-                                letterSpacing={'1.35px'}
+                                letterSpacing={'0.75px'}
                                 key={descId}
                                 className={styles.description}
                               >
@@ -221,7 +221,7 @@ const Projects = ({ id }) => {
                               <Text
                                 fontSize="15px"
                                 color="black"
-                                letterSpacing={'1.35px'}
+                                letterSpacing={'0.75px'}
                                 key={descId}
                                 className={styles.description}
                               >
