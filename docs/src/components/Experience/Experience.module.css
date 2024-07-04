@@ -29,7 +29,7 @@
     /* background-color: rgba(12, 12, 12, 0.2); */
     /* background-color: rgba(227, 227, 227, 0.887); */
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid rgba(241, 241, 241, 0.9);
     /* border-radius: 15px; */
     border-radius: 0px;
     padding: 60px;
