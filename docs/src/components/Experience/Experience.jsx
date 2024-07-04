@@ -226,7 +226,7 @@ const Experience = ({ id }) => {
                             color="black"
                             key={id}
                           >
-                            • {desc}
+                            - {desc}
                           </Text>
                         );
                       })}

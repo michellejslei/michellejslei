@@ -213,7 +213,7 @@ const Projects = ({ id }) => {
                                 key={descId}
                                 className={styles.description}
                               >
-                                • {desc}
+                                - {desc}
                               </Text>
                             );
                           } else if (descId === 1) {
@@ -225,7 +225,7 @@ const Projects = ({ id }) => {
                                 key={descId}
                                 className={styles.description}
                               >
-                                • DOI: <Link href="https://doi.org/10.1080/10826084.2021.1958865" isExternal color="blue" textDecoration="underline">{desc}</Link>
+                                - DOI: <Link href="https://doi.org/10.1080/10826084.2021.1958865" isExternal color="blue" textDecoration="underline">{desc}</Link>
                               </Text>
                             );
                           }
@@ -238,7 +238,7 @@ const Projects = ({ id }) => {
                             key={id}
                             className={styles.description}
                           >
-                            • {desc}
+                            - {desc}
                           </Text>
                         );
                       })}
