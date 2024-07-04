@@ -10,6 +10,7 @@ import {
   Text,
   VStack,
   Tag,
+  Link,
 } from '@chakra-ui/react';
 import React from 'react';
 import { useRef } from 'react';
@@ -78,7 +79,7 @@ const projects = [
       'Created a desktop app to track and rate restaurants with features like notes, favourite dishes, and advanced filtering',
       'Utilized UML for project design and applied OOP for efficient logic development',
     ],
-    tags: ['Java', 'Java Swing'],
+    tags: ['Java', 'Java Swing', 'JUnit Tests'],
     logo: getImageUrl("logos/restaurant.png"),
   },
   {
@@ -97,7 +98,8 @@ const projects = [
     location: 'Sep 2019 - Aug 2021',
     link: '',
     description: [
-      'First author publication in Substance Use & Misuse Journal. DOI: 10.1080/10826084.2021.1958865',
+      'First author publication in Substance Use & Misuse Journal',
+      '10.1080/10826084.2021.1958865',
     ],
     tags: ['R Studio'],
     logo: getImageUrl("logos/painkiller.png"),
@@ -200,13 +202,39 @@ const Projects = ({ id }) => {
                       pl="10px"
                       alignItems="baseline"
                     >
-                      {description.map((desc, id) => {
+                      {description.map((desc, descId) => {
+                        if (title === 'Characterization of Bodily Pain and Use of Prescription and Non-Prescription Opioids in Tenants of Precarious Housing') {
+                          if (descId === 0) {
+                            return (
+                              <Text
+                                fontSize="15px"
+                                color="black"
+                                letterSpacing={'1.35px'}
+                                key={descId}
+                                className={styles.description}
+                              >
+                                • {desc}
+                              </Text>
+                            );
+                          } else if (descId === 1) {
+                            return (
+                              <Text
+                                fontSize="15px"
+                                color="black"
+                                letterSpacing={'1.35px'}
+                                key={descId}
+                                className={styles.description}
+                              >
+                                • DOI: <Link href="https://doi.org/10.1080/10826084.2021.1958865" isExternal color="blue" textDecoration="underline">{desc}</Link>
+                              </Text>
+                            );
+                          }
+                        }
                         return (
                           <Text
                             fontSize="15px"
-                            // style={{ fontFamily: 'Raleway, sans-serif' }}
                             color="black"
-                            letterSpacing={'1.35px'}
+                            letterSpacing={'0.75px'}
                             key={id}
                             className={styles.description}
                           >
@@ -277,8 +305,8 @@ const Projects = ({ id }) => {
           })}
         </Accordion>
       </Box>
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      {/* <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} /> */}
     </section>
   );
 };
