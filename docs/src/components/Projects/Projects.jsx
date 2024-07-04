@@ -123,7 +123,7 @@ import {
   
     return (
       <section className={styles.container} id="projects">
-      <h2 className={styles.title}>## projects</h2>
+      <h2 className={styles.title}># projects</h2>
       <Box
         ref={targetRef}
         id={id}

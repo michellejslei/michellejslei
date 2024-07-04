@@ -50,7 +50,9 @@
 
 .description {
     font-size: 22px;
-    font-family: 'HagridRegular', sans-serif;
+    /* font-family: 'HagridRegular', sans-serif; */
+    font-size: 28px;
+    letter-spacing: 1.05px;
     margin-bottom: 52px;
     line-height: 1.6;
     min-width: 280px;
@@ -58,7 +60,9 @@
 
 .description span {
     position: relative;
-    font-family: 'HagridRegular', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.05px;
+    /* font-family: 'HagridRegular', sans-serif; */
 }
 
 .description span::before {

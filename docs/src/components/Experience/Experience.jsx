@@ -136,7 +136,7 @@ const Experience = ({ id }) => {
 
   return (
     <section className={styles.container} id="experiences">
-    <h2 className={styles.title}>## experiences</h2>
+    <h2 className={styles.title}># experiences</h2>
     <Box
       ref={targetRef}
       id={id}
