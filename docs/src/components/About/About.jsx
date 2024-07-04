@@ -3,13 +3,14 @@ import { getImageUrl } from '../../utils';
 import styles from "./About.module.css";
 
 const About = () => {
-  return <section className={styles.container} id="about">
-    <h2 className={styles.title}># about me</h2>
-    <div className={styles.content}>
+  return (
+    <section className={styles.container} id="about">
+      <h2 className={styles.title}># about me</h2>
+      <div className={styles.content}>
         <img 
-        src={getImageUrl("hero/gradphoto.png")}
-        alt="michelle sitting"
-        className={styles.aboutImage}
+          src={getImageUrl("hero/gradphoto.png")}
+          alt="michelle sitting"
+          className={styles.aboutImage}
         />
         <div className={styles.textGroup}> 
           <p className={styles.aboutItem}>
@@ -22,10 +23,11 @@ const About = () => {
               I love meeting new people, so please feel free to reach out! Let's chat! 
           </p>
         </div>
-    </div>
-    <div className={styles.topBlur} />
-    <div className={styles.bottomBlur} />
-  </section>
+      </div>
+      {/* <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} /> */}
+    </section>
+  );
 };
 
-export default About
+export default About;
