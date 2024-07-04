@@ -166,8 +166,8 @@ const Experience = ({ id }) => {
                     display="flex"
                     flexDir="row"
                     fontWeight="bold"
-                    fontSize="18px"
-                    letterSpacing={'1.05px'}
+                    fontSize="22px"
+                    // letterSpacing={'1.05px'}
                     px="10px"
                     className={styles.jobTitle}
                   >

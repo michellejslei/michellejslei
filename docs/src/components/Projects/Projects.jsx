@@ -157,12 +157,13 @@ const Projects = ({ id }) => {
                       as="span"
                       flex="1"
                       alignItems="center"
+                      textAlign="left"
                       display="flex"
                       flexDir="row"
                       fontWeight="bold"
                       // fontSize="16.5px"
-                      letterSpacing={'1.05px'}
-                      fontSize="18px"
+                      // letterSpacing={'1.05px'}
+                      fontSize="22px"
                       px="10px"
                       className={styles.jobTitle}
                     >
