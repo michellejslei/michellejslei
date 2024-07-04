@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
+import SideQuests from './components/SideQuests/SideQuests'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        {/* <SideQuests /> */}
         <Connect />
       </div>
       <Footer />
