@@ -30,6 +30,20 @@ const projects = [
   //   captions: [],
   // },
   {
+    title: 'Community Garden Management System',
+    location: 'Jul - Aug 2024',
+    link: '',
+    description: [
+      'Utilized SQL and NextJS to create a municipality management system for their community gardens',
+    ],
+    tags: ['NextJS', 'Express.js', 'Node.js', 'SQL', 'Relational Databases'],
+    logo: getImageUrl("logos/garden.png"),
+    photos: [],
+    captions: [
+      '',
+    ],
+  },
+  {
     title: 'StudyGuard [BCS Hackathon]',
     location: 'Mar - Apr 2024',
     link: '',
@@ -37,7 +51,7 @@ const projects = [
       'Created a web ML study buddy to process TensorFlow pose detection data via webcam and send audio alerts when a user is engaged in a ‘distracted’ pose during a study session',
       'Implemented a real-time communication server using Socket.IO with WebSocket management that allows users to join virtual study rooms, manage connections securely, and receive notifications',
     ],
-    tags: ['React.js', 'JavaScript', 'Express', 'Node.js', 'TensorFlow', 'Socket.IO'],
+    tags: ['React.js', 'Express.js', 'Node.js', 'TensorFlow', 'Socket.IO'],
     logo: getImageUrl("logos/studyguard.png"),
     photos: [],
     captions: [
@@ -54,7 +68,7 @@ const projects = [
       'Elevated user engagement by integrating an intuitive ‘swipe-to-match’ user interface through React.js',
       'UBC CS Project Hub Winner',
     ],
-    tags: ['React.js', 'Node.js', 'JavaScript'],
+    tags: ['React.js', 'Node.js', 'JavaScript', 'MongoDB'],
     logo: getImageUrl("logos/swipebright.png"),
     photos: [],
     captions: [],
