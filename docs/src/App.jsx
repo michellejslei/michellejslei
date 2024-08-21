@@ -20,9 +20,9 @@ function App() {
 
   return (
     <div className={styles.App}>
-      {loading ? (
+      {/* {loading ? (
         <LoadingScreen onLoaded={handleLoaded} />
-      ) : (
+      ) : ( */}
         <>
           <Navbar />
           <div className={styles.main}>
@@ -35,7 +35,7 @@ function App() {
           </div>
           <Footer />
         </>
-      )}
+      {/* )} */}
     </div>
   );
 }
