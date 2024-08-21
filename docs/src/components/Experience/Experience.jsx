@@ -33,7 +33,7 @@ const experiences = [
     location: 'Toronto, ON, Sep 2024 - Dec 2024',
     link: 'https://www.shopify.com/ca/store-login',
     description: [
-      'Incoming Backend Software Engineer Intern',
+      'Incoming Backend Software Engineer Intern on Orders Team',
     ],
     tags: [],
     logo: getImageUrl("logos/shopify.png"),
