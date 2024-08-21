@@ -1,0 +1,18 @@
+.loadingScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* Adjust background color as needed */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+  .pixelCharacter {
+    width: auto; /* Adjust size as needed */
+    height: 628px; /* Adjust size as needed */
+  }
+  
