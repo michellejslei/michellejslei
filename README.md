@@ -23,7 +23,7 @@ MichelleLei = {
   },
 
   "currently": [
-    "Incoming Backend Developer @ Shopify",
+    "Software Engineer Intern @ Shopify",
     "Software Developer / Co-founder @ FinLit Island Education Association",
   ],
 
