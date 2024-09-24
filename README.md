@@ -49,7 +49,7 @@ MichelleLei = {
       "HTML",
       "CSS",
     ],
-    "frameworks": ["Ruby on Rails", "Express.js", "React.js", "Flask"]
+    "frameworks": ["Ruby on Rails", "Express.js", "React.js", "Flask"],
     "tools": ["Github", "Unity", "VSCode", "Figma"],
   }
 };
