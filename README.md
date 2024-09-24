@@ -34,23 +34,22 @@ MichelleLei = {
   ],
 
   "skills": {
-    "techStack": [
+    "languages": [
       "Python",
       "JavaScript",
+      "Ruby",
       "C++",
+      "GraphQL",
       "Java",
-      "React.js",
       "C",
       "TypeScript",
       "C#",
       "SQL",
       "R",
-      "Express.js",
-      "Node.js",
-      "Flask",
       "HTML",
       "CSS",
     ],
+    "frameworks": ["Ruby on Rails", "Express.js", "React.js", "Flask"]
     "tools": ["Github", "Unity", "VSCode", "Figma"],
   }
 };
